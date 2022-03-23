@@ -2,20 +2,14 @@
   position: relative;
   top:-270px;
   display: flex;;
-  /* display: grid;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: auto 90px;
-  row-gap: 10em; */
   overflow-y:hidden;
   height: 350px;
 }
 .item{
-  /* width: 300px; */
   background: #4a5767;
   margin-left: 10px;
 }
 .days {
-  /* object-fit: cover;  */
   display: flex;
 }
 .dayss{

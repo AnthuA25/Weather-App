@@ -32,8 +32,6 @@ export default function Card({
   const timeElapsed = Date.now();
   const now = new Date(timeElapsed);
 
-  // const timeMinutes = timezone / 60;
-  // const currenttime = moment().utcOffset(timeMinutes).format('h:mm A');
   let city = { latitud: latitud, longitud: longitud, name: name };
   
   return (

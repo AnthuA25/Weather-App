@@ -1,0 +1,173 @@
+.card {
+  margin: 20px;
+  /* width: 18rem; */
+  width: 700px;
+  height: 260px;
+  box-shadow: -15px -15px 15px rgba(110, 110, 110, 0.2),
+    15px 15px 15px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 5px rgba(180, 180, 180, 0.1),
+    inset 5px 5px 5px rgba(65, 64, 64, 0.1);
+  background-color: #4a5767;
+  color: white;
+  border-radius: 20px;
+}
+.body {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
+  display: grid;
+  grid-template-columns: 400px 200px 70px;
+  grid-template-rows: auto 90px;
+  column-gap: 10px;
+  row-gap: 10em;
+}
+.closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.title {
+  color: white;
+  text-align: left;
+  text-indent: 20px;
+  line-height: 25px;
+  /* left: -250px; */
+  position: relative;
+  top: -16px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.temp{
+  position: relative;
+  top: -28px;
+}
+.temp1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.now{
+  position: relative;
+  top:-19px
+}
+.data {
+  position: relative;
+  top: -42px;
+  display: grid;
+  gap: 8px;
+}
+.humidity {
+  display: flex;
+}
+
+.pressure {
+  display: flex;
+  position: relative;
+  top: -8px;
+}
+.aire {
+  display: flex;
+  position: relative;
+  top: -8px;
+}
+.description {
+  font-size: 18px;
+}
+.icon {
+  position: relative;
+  top: -33px;
+}
+.iconoClima {
+  position: relative;
+  top: -25px;
+}
+
+.move{
+  position: relative;
+  right: -10px;
+}
+.p{
+  position: relative;
+  right: -10px;
+}
+.column1{
+  position: relative;
+  right: -8px;
+}
+.move1{
+  position: relative;
+  right: -1px;
+}
+.p1{
+  position: relative;
+  right: -10px;
+} 
+.daily{
+  position: relative;
+  top:-260px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+}
+.map{
+  position: relative;
+  left: -600px;
+  top: 145px;
+}
+/* .btn{
+  position: relative;
+  padding: 4px;
+  top:10px;
+  border-radius: 5px;
+  color: #4A5767;
+  font-weight: bold;
+  background: #C4C4C4;
+  border: none;
+} */
+.week{
+  height: 0%;
+  /* position: relative;
+  top:85px;
+  width: 690px; */
+
+}
+
+@media screen and (max-width: 700px){
+  .body {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: 500px 100px 26px;
+    grid-template-rows: 360px 90px;
+    column-gap: 10px;
+    row-gap: 10em;
+  }
+  .data {
+    top: 200px;
+    left: -460px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    top: 170px;
+  }
+  .card {
+    margin: 10px;
+    width: 508px;
+    height: 350px;
+  }
+  .map{
+    position: relative;
+    left: -600px;
+    top: 239px;
+  }
+  .week{
+    width: 350px;
+    position: relative;
+    left: 95px;
+    /* position: relative;
+    top:85px;
+    width: 690px; */
+  
+  }
+}

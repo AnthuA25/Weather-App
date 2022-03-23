@@ -1,0 +1,83 @@
+.center{
+    position: absolute;
+    width: 1300px;
+    margin: 40px;
+    /* margin-right: 40px; */
+    height:700px;
+    top:0;
+    right:0;
+    background: rgba(110,110,110,0.90);
+}
+.aboutMe{
+    position: relative;
+    top:150px;
+}
+.titleA{
+    margin-top: 30px;
+    color: rgb(43, 55, 77);
+    font-weight: bolder;
+}
+
+.bodyText{
+    text-align: justify;
+    text-align: center;
+    padding:20px;
+    color:white;
+    font-weight: bolde;
+}
+.redes{
+    position: relative;
+    top:250px
+}
+.redesflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.linkedin{
+    display: grid;
+    grid-template-columns: 5px 5px;
+    gap: 56px;
+    margin-right: 150px;
+
+}
+.github{
+    display: grid;
+    grid-template-columns: 5px 5px;
+    gap: 56px;
+    /* margin: 50px; */
+}
+.li{
+    width:50px;
+    height: 50px;
+}
+
+.git{
+    width:50px;
+    height: 50px;
+}
+.title{
+    color: rgb(43, 55, 77);
+    font-weight: bolder;
+}
+.titleLI{
+    /* color:#4a5767; */
+    color:white;
+    font-weight: bold;
+}
+.titleGI{
+    /* color:#4a5767; */
+    color:white;
+    font-weight: bold;
+}
+.arrow{
+    position: relative;
+    top:280px;
+    left: -580px;
+}
+.icon{
+    width: 85px;
+    height: 35px;
+    color: white;
+}

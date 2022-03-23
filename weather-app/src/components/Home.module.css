@@ -1,0 +1,46 @@
+.container {
+  background: url("../images/alberta-gcd0b58e40_1920.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.left {
+  position: relative;
+  top: 295px;
+  right: 48px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme {
+  position: relative;
+  top: -280px;
+  color: #4a5767;
+  background-color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  right: 250px;
+  box-shadow: -15px -15px 15px rgba(110, 110, 110, 0.2),
+    15px 15px 15px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 5px rgba(180, 180, 180, 0.1),
+    inset 5px 5px 5px rgba(65, 64, 64, 0.1);
+}
+/* .weatherLo{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+} */
+@media screen and (max-width: 700px) {
+  .aboutme {
+    right: 35px;
+  }
+  .container {
+    min-height: 146vh;
+  }
+}

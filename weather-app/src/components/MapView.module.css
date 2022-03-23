@@ -1,0 +1,13 @@
+.map{
+    width:470px;
+    height: 500px;
+}
+.button{
+    display: flex;
+    background: #C4C4C4;
+    border: none;
+    color:#4A5767;
+}
+.modal{
+    background:#5d6b7c;
+}

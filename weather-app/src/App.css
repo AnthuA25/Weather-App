@@ -1,0 +1,8 @@
+.app {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}

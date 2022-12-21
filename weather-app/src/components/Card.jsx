@@ -69,10 +69,10 @@ export default function Card({
               alt=""
               width="40px"
               height="40px"
-              className={style.hum}
+              className={style.hum1}
             />
-            <div className={style.column}>
-              <div className={style.move}>Humidity</div>
+            <div className={style.column1}>
+              <div className={style.moveh}>Humidity</div>
               <div>{humidity}%</div>
             </div>
           </div>
@@ -84,9 +84,9 @@ export default function Card({
               height="40px"
               className={style.hum}
             />
-            <div className={style.column1}>
+            <div className={style.column}>
               <div className={style.move}>Pressure</div>
-              <div className={style.p}>{pressure} hPa</div>
+              <div className={style.p}>{pressure}hPa</div>
             </div>
           </div>
           <div className={style.aire}>
@@ -97,9 +97,9 @@ export default function Card({
               height="40px"
               className={style.hum}
             />
-            <div className={style.column1}>
+            <div className={style.column}>
               <div className={style.move1}>Wind</div>
-              <div className={style.p1}>{wind} M/S</div>
+              <div className={style.p1}>{wind}M/S</div>
             </div>
           </div>
         </div>

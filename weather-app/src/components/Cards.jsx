@@ -37,7 +37,7 @@ export default function Cards({ cities, onClose, onSearch }) {
       {
         !cardCity ?<div className={style.nodata}>
           <p className={style.textdata}>No city yet</p>
-        </div> : <p></p>
+        </div> : <p  className={style.nothing}></p>
       }
       
     </div>

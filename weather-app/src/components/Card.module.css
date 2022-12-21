@@ -114,6 +114,10 @@
   left: -600px;
   top: 145px;
 }
+.moveh{
+  position: relative;
+  right: -1px;
+}
 /* .btn{
   position: relative;
   padding: 4px;
@@ -170,4 +174,23 @@
     width: 690px; */
   
   }
+  .p{
+    position: relative;
+    right: -10px;
+  }
+  .p1{
+    position: relative;
+    right: -10px;
+  } 
+  .hum1{
+    position: relative;
+    top:-4px;
+  }
+  .column1{
+    position: relative;
+    right: -8px;
+    top: -9px;
+  }
+  
+
 }
